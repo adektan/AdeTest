@@ -22,3 +22,12 @@ I used sql query to create this rank based on table complex with completenes ima
 
 Task 3 :
 I created new table to help user can easy query to this table and the table name in schema master with name analytic.property (master.analytic_property)
+
+
+IF want to run file python and check manualy can see the pipelines : 
+ddl_tables.sql (run just once) -> in folder test -> task1_load_complex.py -> task1_load_tower.py -> task1.py -> task3.py
+
+or
+
+If want to run all of jobs, after run ddl_tables.sql run job.py
+job.py : script for run all task
